@@ -6,9 +6,15 @@
 	<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Anton&family=Open+Sans&display=swap" rel="stylesheet">
+	<!-- <link rel="stylesheet" href="mobile_styles.css" media="(max-width: 480px)">
+	<link rel="stylesheet" type="text/css" media="screen and (max-width: 480px)" href="mobile.css"> -->
+	<link rel="stylesheet" href="laptop_styles.css" media="(max-width: 1130px)">
+	<!-- <link rel="stylesheet" type="text/css" media="screen and (max-width: 780px)" href="tablet.css"> -->
+	<link rel="stylesheet" type="text/css" media="screen and (max-width: 1130px)" href="laptop.css">
+	<!-- <link rel="stylesheet" href="tablet_styles.css" media="(max-width: 780px)"> -->
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 	<link rel="stylesheet" href="style.css">
 	<link rel="shortcut icon" url="img/logo.png">
 	<title>Darov4Kollet</title>
@@ -64,13 +70,15 @@
 	</header>
 	<section id="about" class="about">
 		<div class="container">
+			<h2>Обо мне</h2>
+			
 			<div class="about_content">
-				<h2>Обо мне</h2>
+				<img src="img/image4.jpg" alt="" class="photo_me">
 				<ul class="about-info-contacts">
 					<li>
 						<a class="about-info-contacts" href="https://www.youtube.com/">
 							<img src="img/icon4.png" alt="whatsapp" class="about_contacts">
-						</a>
+						</img>
 					</li>
 					<li>
 						<a class="about-info-contacts" href="https://www.youtube.com/">
@@ -83,12 +91,13 @@
 						</a>
 					</li>
 				</ul>
-				<img src="img/image4.jpg" alt="" class="photo_me">
 				<p>Меня зовут Даулет Колдаров. Я живу в Алматы и тут спокойно(но не всегда).
 					Первый раз я начал создавать сайты в 14 лет.
 					И за эти годы я прокачал себя до специалиста по веб-разработке.
-					Программирую на VS Code, умею работать с Figma, Tilda и с фреймворками для JavaScript.</p>
-
+					Программирую на VS Code, умею работать с Figma, Tilda и с фреймворками для JavaScript.
+				
+				</p>
+				
 			</div>
 
 		</div>
@@ -101,18 +110,17 @@
 			<h2>portfolio</h2>
 			<div class="about_text_info_left">
 				<img class="image_right" src="img/image1.png" alt="">
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum delectus perspiciatis fugit unde, animi
-					hic.</p>
+				<p>Вёрстка сайтов с чистым кроссбраузерным кодом. БЭМ, GULP, SCSS, CSS3\HTML5. Чистый JavaScript, jQwery.</p>
 			</div>
 			<div class="about_text_info_right">
 				<img class="image_left" src="img/image2.png" alt="">
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum delectus perspiciatis fugit unde, animi
-					hic.</p>
+				<p>Профессиональное обслуживание, наполнение, поддержка сайтов и интернет-магазинов. Создание макетов для
+					сайта и дополнение не законченого сайта</p>
 			</div>
 			<div class="about_text_info_left">
 				<img class="image_right" src="img/image3.png" alt="">
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum delectus perspiciatis fugit unde, animi
-					hic.</p>
+				<p>Вёрстка сайтов с чистым кроссбраузерным кодом. БЭМ, GULP, SCSS, CSS3\HTML5. Чистый JavaScript, jQwery.
+				</p>
 			</div>
 		</div>
 	</section>
@@ -120,23 +128,27 @@
 		<div class="footer_info">
 			<h2>Contacts</h2>
 			<p>Свяжитесь со мной если нужен свой сайт</p>
-			<ul class="menu_footer">
-				<li>
-					<a class="menu_link" href="#home">Home</a>
-				</li>
-				<li>
-					<a class="menu_link" href="#about">About</a>
-				</li>
-				<li>
-					<a class="menu_link" href="#portfolio">Portfolio</a>
-				</li>
-				<li>
-					<a class="menu_link" href="#contacts">Contacts</a>
-				</li>
+			<!-- <div class="menu_center">
+				<ul class="menu_footer">
+					<li>
+						<a class="menu_link" href="#home">Home</a>
+					</li>
+					<li>
+						<a class="menu_link" href="#about">About</a>
+					</li>
+					<li>
+						<a class="menu_link" href="#portfolio">Portfolio</a>
+					</li>
+					<li>
+						<a class="menu_link" href="#contacts">Contacts</a>
+					</li>
 
-			</ul>
+				</ul>
+			</div> -->
+
+			
 		</div>
-		
+
 	</footer>
 	<div class="footer_link">
 		<p class="copyright">Made with <i class="fa fa-heart red-text"></i> by <a href="">Koldarov Daulet</a></p>
